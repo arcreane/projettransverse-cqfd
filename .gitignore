@@ -1,0 +1,10 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/CQFDsnap/.vs/CQFDsnap/v16
+/CQFDsnap/CQFDsnap/lib
+/CQFDsnap/CQFDsnap/x64/Debug
+/CQFDsnap/CQFDsnap/CQFDsnap.vcxproj.user
+/CQFDsnap/x64/Debug
