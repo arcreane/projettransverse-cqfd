@@ -12,8 +12,8 @@ int main(int argc, const char** argv)
 {
     CommandLineParser parser(argc, argv,
         "{help h||}"
-        "{face_cascade|data/haarcascades/haarcascade_frontalface_alt.xml|Path to face cascade.}"
-        "{eyes_cascade|data/haarcascades/haarcascade_eye_tree_eyeglasses.xml|Path to eyes cascade.}"
+        "{face_cascade|D:\\haar-cascade-files-master\\haarcascade_frontalface_alt.xml|Path to face cascade.}"
+        "{eyes_cascade|D:\\haar-cascade-files-master\\haarcascade_eye_tree_eyeglasses.xml|Path to eyes cascade.}"
         "{camera|0|Camera device number.}");
     parser.about("\nThis program demonstrates using the cv::CascadeClassifier class to detect objects (Face + eyes) in a video stream.\n"
         "You can use Haar or LBP features.\n\n");
