@@ -1,0 +1,13 @@
+﻿C:\Program Files (x86)\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(476,5): warning MSB8004: Le répertoire Intermediate ne se termine pas par une barre oblique finale. Cette instance de build ajoutera une barre oblique, comme requis, pour permettre l'évaluation correcte du répertoire Intermediate.
+  code.cpp
+C:\Users\ncjmw\source\repos\arcreane\projettransverse-cqfd\CQFDsnap\CQFDsnap\code.cpp(32,93): warning C4244: 'argument' : conversion de 'double' en '_Tp', perte possible de données
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\ncjmw\source\repos\arcreane\projettransverse-cqfd\CQFDsnap\CQFDsnap\code.cpp(32,60): warning C4244: 'argument' : conversion de 'double' en '_Tp', perte possible de données
+          with
+          [
+              _Tp=int
+          ]
+  CQFDsnap.vcxproj -> C:\Users\ncjmw\source\repos\arcreane\projettransverse-cqfd\CQFDsnap\x64\Debug\CQFDsnap.exe
