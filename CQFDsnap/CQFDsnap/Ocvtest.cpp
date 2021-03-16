@@ -10,7 +10,8 @@ using namespace cv;
 int main(int argc, const char** argv)
 {
 
-	double scale = 3.0;
+	double scale = 3.5;
+	string key;
 
 	CascadeClassifier faceCascade;
 	faceCascade.load("D:\\opencv\\build\\etc\\haarcascades\\haarcascade_frontalface_alt.xml");
@@ -22,9 +23,9 @@ int main(int argc, const char** argv)
 	
 	for (;;)
 	{
-		string path = "Resources//snapchat.png";
-		Mat img = imread(path);
+		
 		Mat frame;
+		Mat imgcanney;
 		cap >> frame;
 
 		Mat grayscale;
@@ -36,12 +37,15 @@ int main(int argc, const char** argv)
 
 		for (Rect area : faces)
 		{
+	
 			Scalar drawColor = Scalar(255, 255, 64);
-			
-			
+
 			rectangle(frame, Point(cvRound(area.x * scale), cvRound(area.y * scale)), Point(cvRound((area.x + area.width - 1) * scale),
 				cvRound((area.y + area.height - 1) * scale)), drawColor);
-
+				
+			
+			
+				
 
 		}
 		
